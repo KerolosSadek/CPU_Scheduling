@@ -4,6 +4,7 @@ Windows Application for simulate graph processes Scheduling in Operating System
 
 Support max 10 prosesses in simmulate.
 Support language => Eng
+
 Support 6 Algorithm
 
 1.First come first served  (FCFS)
