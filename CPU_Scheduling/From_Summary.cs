@@ -35,18 +35,7 @@ namespace CPU_Scheduling
 
             accessContent();
             setVisibleContent();
-            setVisibleLanguageBar();
-            //set init Language.
-            if (myScheduling.language == "EN")
-            {
-                comboBox_language.SelectedIndex = 0;
-            }
-            else if (myScheduling.language == "TH")
-            {
-                comboBox_language.SelectedIndex = 1;
-            }
-
-            setLanguage();
+            
 
             clearData();
             setData();
@@ -217,80 +206,8 @@ namespace CPU_Scheduling
             lbl_contextSwitch_RR.Text = "-"; 
         }
 
-        private void setVisibleLanguageBar()
-        {
-            lbl_language.Visible = myScheduling.flag_language_bar;
-            comboBox_language.Visible = myScheduling.flag_language_bar;
-        }
+        
 
-        private void setLanguage()
-        {
-            if (comboBox_language.SelectedIndex == 0)
-            {
-                myScheduling.language = "EN";
-                lbl_language.Text = "language";
-                groupBox_ResultProcess.Text = "Summary";
-
-                lbl_arrival.Text = "Arrival";
-                lbl_burst.Text = "Burst";
-                lbl_priority.Text = "Priority";
-
-                lbl_avg.Text = "Average waiting time";
-                lbl_con.Text = "Context switch";
-                lbl_topic.Text = "Your data";
-
-                btn_back.Text = "Back";
-                button7.Text = "Done";
-
-                label_unit_con_1.Text = "times";
-                label_unit_con_2.Text = "times";
-                label_unit_con_3.Text = "times";
-                label_unit_con_4.Text = "times";
-                label_unit_con_5.Text = "times";
-                label_unit_con_6.Text = "times";
-                
-
-                String p = "Process";
-                for (int i = 0; i < 10; i++)
-                {
-                    label_process[i].Text = p + " " + (i + 1);
-                }
-            }
-            else if (comboBox_language.SelectedIndex == 1)
-            {
-                myScheduling.language = "TH";
-                lbl_language.Text = "       ภาษา";
-                groupBox_ResultProcess.Text = "สรุปผล";
-
-                lbl_arrival.Text = "เวลาที่มาถึง";
-                lbl_burst.Text = "เวลาทำงาน";
-                lbl_priority.Text = "ความสำคัญ";
-
-                lbl_avg.Text = "           ค่าเฉลี่ยการรอ";
-                lbl_con.Text = "สลับการทำงาน";
-                lbl_topic.Text = "ข้อมูลของคุณ";
-                label_unit_con_1.Text = "ครั้ง";
-                label_unit_con_2.Text = "ครั้ง";
-                label_unit_con_3.Text = "ครั้ง";
-                label_unit_con_4.Text = "ครั้ง";
-                label_unit_con_5.Text = "ครั้ง";
-                label_unit_con_6.Text = "ครั้ง";
-
-                btn_back.Text = "กลับ";
-                button7.Text = "เสร็จสิ้น";
-
-
-                String p = "โปรเซสที่ ";
-                for (int i = 0; i < 10; i++)
-                {
-                    label_process[i].Text = p + " " + (i + 1);
-                }
-            }
-        }
-
-        private void comboBox_language_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            setLanguage();
-        }
+        
     }
 }

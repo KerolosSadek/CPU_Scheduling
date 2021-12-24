@@ -69,5 +69,15 @@ namespace CPU_Scheduling.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2021_12_18_15_35_34 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2021-12-18_15-35-34", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

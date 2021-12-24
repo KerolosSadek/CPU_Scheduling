@@ -61,7 +61,7 @@
             this.btn_back.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_back.ForeColor = System.Drawing.Color.SkyBlue;
             this.btn_back.Location = new System.Drawing.Point(16, 624);
-            this.btn_back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(128, 52);
             this.btn_back.TabIndex = 3;
@@ -76,7 +76,7 @@
             this.numeric_numProcess.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numeric_numProcess.ForeColor = System.Drawing.SystemColors.GrayText;
             this.numeric_numProcess.Location = new System.Drawing.Point(35, 47);
-            this.numeric_numProcess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numeric_numProcess.Margin = new System.Windows.Forms.Padding(4);
             this.numeric_numProcess.Maximum = new decimal(new int[] {
             10,
             0,
@@ -103,9 +103,9 @@
             this.groupBox_numberProcess.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox_numberProcess.ForeColor = System.Drawing.Color.Gray;
             this.groupBox_numberProcess.Location = new System.Drawing.Point(85, 17);
-            this.groupBox_numberProcess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_numberProcess.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox_numberProcess.Name = "groupBox_numberProcess";
-            this.groupBox_numberProcess.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_numberProcess.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox_numberProcess.Size = new System.Drawing.Size(669, 127);
             this.groupBox_numberProcess.TabIndex = 6;
             this.groupBox_numberProcess.TabStop = false;
@@ -118,7 +118,7 @@
             this.btn_ok_number_of_process.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ok_number_of_process.ForeColor = System.Drawing.Color.DodgerBlue;
             this.btn_ok_number_of_process.Location = new System.Drawing.Point(85, 452);
-            this.btn_ok_number_of_process.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_ok_number_of_process.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ok_number_of_process.Name = "btn_ok_number_of_process";
             this.btn_ok_number_of_process.Size = new System.Drawing.Size(669, 57);
             this.btn_ok_number_of_process.TabIndex = 5;
@@ -133,7 +133,7 @@
             this.checkBox_FCFS.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox_FCFS.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_FCFS.Location = new System.Drawing.Point(35, 47);
-            this.checkBox_FCFS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox_FCFS.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_FCFS.Name = "checkBox_FCFS";
             this.checkBox_FCFS.Size = new System.Drawing.Size(96, 41);
             this.checkBox_FCFS.TabIndex = 19;
@@ -148,7 +148,7 @@
             this.checkBox_SJF_P.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox_SJF_P.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_SJF_P.Location = new System.Drawing.Point(35, 101);
-            this.checkBox_SJF_P.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox_SJF_P.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_SJF_P.Name = "checkBox_SJF_P";
             this.checkBox_SJF_P.Size = new System.Drawing.Size(218, 41);
             this.checkBox_SJF_P.TabIndex = 20;
@@ -163,7 +163,7 @@
             this.checkBox_RR.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox_RR.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_RR.Location = new System.Drawing.Point(35, 210);
-            this.checkBox_RR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox_RR.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_RR.Name = "checkBox_RR";
             this.checkBox_RR.Size = new System.Drawing.Size(71, 41);
             this.checkBox_RR.TabIndex = 21;
@@ -188,9 +188,9 @@
             this.groupbox_algorithm.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupbox_algorithm.ForeColor = System.Drawing.Color.Gray;
             this.groupbox_algorithm.Location = new System.Drawing.Point(85, 151);
-            this.groupbox_algorithm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupbox_algorithm.Margin = new System.Windows.Forms.Padding(4);
             this.groupbox_algorithm.Name = "groupbox_algorithm";
-            this.groupbox_algorithm.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupbox_algorithm.Padding = new System.Windows.Forms.Padding(4);
             this.groupbox_algorithm.Size = new System.Drawing.Size(669, 278);
             this.groupbox_algorithm.TabIndex = 24;
             this.groupbox_algorithm.TabStop = false;
@@ -215,7 +215,7 @@
             this.checkBox_Priority_N.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox_Priority_N.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_Priority_N.Location = new System.Drawing.Point(336, 156);
-            this.checkBox_Priority_N.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox_Priority_N.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_Priority_N.Name = "checkBox_Priority_N";
             this.checkBox_Priority_N.Size = new System.Drawing.Size(312, 41);
             this.checkBox_Priority_N.TabIndex = 29;
@@ -242,7 +242,7 @@
             this.checkBox_Priority_P.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox_Priority_P.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_Priority_P.Location = new System.Drawing.Point(35, 156);
-            this.checkBox_Priority_P.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox_Priority_P.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_Priority_P.Name = "checkBox_Priority_P";
             this.checkBox_Priority_P.Size = new System.Drawing.Size(266, 41);
             this.checkBox_Priority_P.TabIndex = 27;
@@ -269,7 +269,7 @@
             this.checkBox_SJF_N.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox_SJF_N.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_SJF_N.Location = new System.Drawing.Point(336, 101);
-            this.checkBox_SJF_N.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox_SJF_N.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_SJF_N.Name = "checkBox_SJF_N";
             this.checkBox_SJF_N.Size = new System.Drawing.Size(264, 41);
             this.checkBox_SJF_N.TabIndex = 25;
@@ -320,7 +320,7 @@
             this.panel1.Controls.Add(this.groupbox_algorithm);
             this.panel1.Controls.Add(this.groupBox_numberProcess);
             this.panel1.Location = new System.Drawing.Point(96, 91);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(840, 526);
             this.panel1.TabIndex = 25;
@@ -330,12 +330,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::CPU_Scheduling.Properties.Resources.BG_Blur;
+            this.BackgroundImage = global::CPU_Scheduling.Properties.Resources.photo_2021_12_18_15_35_34;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1045, 690);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Form_Menu";
             this.Text = "Visual Processes Scheduling";

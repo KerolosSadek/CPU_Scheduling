@@ -28,17 +28,7 @@ namespace CPU_Scheduling
             InitializeComponent();
             this.myScheduling = myScheduling;
             accessContent();
-            setVisibleLanguageBar();
-            //set init Language.
-            if (myScheduling.language == "EN")
-            {
-                comboBox_language.SelectedIndex = 0;
-            }
-            else if (myScheduling.language == "TH")
-            {
-                comboBox_language.SelectedIndex = 1;
-            }
-            setLanguage();
+            
 
             
             setEnableContent();
@@ -225,80 +215,8 @@ namespace CPU_Scheduling
             }
         }
 
-        private void setVisibleLanguageBar()
-        {
-            lbl_language.Visible = myScheduling.flag_language_bar;
-            comboBox_language.Visible = myScheduling.flag_language_bar;
-        }
-
-        public void setLanguage()
-        {
-            if (comboBox_language.SelectedIndex == 0)
-            {
-                myScheduling.language = "EN";
-                lbl_language.Text = "language";
-                groupBox_processDetail.Text = "Process Detail";
-                groupBox_option.Text = "Option";
-
-                lbl_arrival_l.Text = "Arrival time (ms)";
-                lbl_arrival_r.Text = "Arrival time (ms)";
-
-                lbl_burst_l.Text = "Burst time (ms)";
-                lbl_burst_r.Text = "Burst time (ms)";
-
-                lbl_priority_l.Text = "Priority";
-                lbl_priority_r.Text = "Priority";
-
-                lbl_quantum.Text = "Quantum Time";
-                checkBox_displayChart.Text = "Display Gantt chart";
-                lbl_descrip_priority.Text = "For priority have value less number is  more high priority.";
-                lbl_default.Text = "Restore the default";
-
-                String p = "Process";
-                for (int i = 0; i < 10; i++)
-                {
-                    lbl_process[i].Text = p + " " + (i+1);
-                }
-
-                btn_back.Text = "Back";
-                button2.Text = "Next";
-            }
-            else if (comboBox_language.SelectedIndex == 1)
-            {
-                myScheduling.language = "TH";
-                lbl_language.Text = "       ภาษา";
-                groupBox_processDetail.Text = "รายละเอียด";
-                groupBox_option.Text = "ตัวเลือก";
-
-                lbl_arrival_l.Text = "เวลาที่มาถึง (ms)";
-                lbl_arrival_r.Text = "เวลาที่มาถึง (ms)";
-
-                lbl_burst_l.Text = "เวลาทำงาน (ms)";
-                lbl_burst_r.Text = "เวลาทำงาน (ms)";
-
-                lbl_priority_l.Text = "ความสำคัญ";
-                lbl_priority_r.Text = "ความสำคัญ";
-
-                lbl_quantum.Text = "   เวลาควันตัม";
-                checkBox_displayChart.Text = "แสดงแผนภูมิแกนต์";
-                lbl_descrip_priority.Text = "      กระบวนการที่มีความสำคัญมาก จะมีค่าตัวเลขความสำคัญน้อย";
-                lbl_default.Text = "คืนค่าเริ่มต้น";
-
-                String p = "โปรเซสที่";
-                for (int i = 0; i < 10; i++)
-                {
-                    lbl_process[i].Text = p + " " + (i + 1);
-                }
-
-                btn_back.Text = "กลับ";
-                button2.Text = "ต่อไป";
-            }
-        }
-
-        private void comboBox_language_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            setLanguage();
-        }
+        
+        
 
         private void lbl_default_Click(object sender, EventArgs e)
         {

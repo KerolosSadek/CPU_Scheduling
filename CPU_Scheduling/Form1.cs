@@ -24,7 +24,6 @@ namespace CPU_Scheduling
         {
             InitializeComponent();
             this.myScheduling = myScheduling;
-            setLanguage();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -42,17 +41,7 @@ namespace CPU_Scheduling
             Hide();  
         }
 
-        private void setLanguage()
-        {
-            if (myScheduling.language == "EN")
-            {
-                btn_next.Text = "Next";
-            }
-            else if (myScheduling.language == "TH")
-            {
-                btn_next.Text = "ต่อไป";
-            }
-        }
+        
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -60,6 +49,16 @@ namespace CPU_Scheduling
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel_project_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }

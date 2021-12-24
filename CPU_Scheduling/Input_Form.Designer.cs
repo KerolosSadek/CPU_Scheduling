@@ -85,8 +85,6 @@
             this.lbl_quantum = new System.Windows.Forms.Label();
             this.checkBox_displayChart = new System.Windows.Forms.CheckBox();
             this.numericUpDown_QuantumTime = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_language = new System.Windows.Forms.ComboBox();
-            this.lbl_language = new System.Windows.Forms.Label();
             this.groupBox_processDetail.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_p9_arrival)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_p8_arrival)).BeginInit();
@@ -176,9 +174,9 @@
             this.groupBox_processDetail.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox_processDetail.ForeColor = System.Drawing.Color.DimGray;
             this.groupBox_processDetail.Location = new System.Drawing.Point(23, 4);
-            this.groupBox_processDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_processDetail.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox_processDetail.Name = "groupBox_processDetail";
-            this.groupBox_processDetail.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_processDetail.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox_processDetail.Size = new System.Drawing.Size(965, 380);
             this.groupBox_processDetail.TabIndex = 26;
             this.groupBox_processDetail.TabStop = false;
@@ -204,7 +202,7 @@
             this.num_p9_arrival.Enabled = false;
             this.num_p9_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p9_arrival.Location = new System.Drawing.Point(599, 239);
-            this.num_p9_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p9_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p9_arrival.Name = "num_p9_arrival";
             this.num_p9_arrival.Size = new System.Drawing.Size(80, 42);
             this.num_p9_arrival.TabIndex = 59;
@@ -217,7 +215,7 @@
             this.num_p8_arrival.Enabled = false;
             this.num_p8_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p8_arrival.Location = new System.Drawing.Point(599, 188);
-            this.num_p8_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p8_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p8_arrival.Name = "num_p8_arrival";
             this.num_p8_arrival.Size = new System.Drawing.Size(80, 42);
             this.num_p8_arrival.TabIndex = 58;
@@ -230,7 +228,7 @@
             this.num_p7_arrival.Enabled = false;
             this.num_p7_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p7_arrival.Location = new System.Drawing.Point(599, 138);
-            this.num_p7_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p7_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p7_arrival.Name = "num_p7_arrival";
             this.num_p7_arrival.Size = new System.Drawing.Size(80, 42);
             this.num_p7_arrival.TabIndex = 57;
@@ -243,7 +241,7 @@
             this.num_p10_arrival.Enabled = false;
             this.num_p10_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p10_arrival.Location = new System.Drawing.Point(599, 289);
-            this.num_p10_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p10_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p10_arrival.Name = "num_p10_arrival";
             this.num_p10_arrival.Size = new System.Drawing.Size(80, 42);
             this.num_p10_arrival.TabIndex = 60;
@@ -256,7 +254,7 @@
             this.num_p6_arrival.Enabled = false;
             this.num_p6_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p6_arrival.Location = new System.Drawing.Point(597, 87);
-            this.num_p6_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p6_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p6_arrival.Name = "num_p6_arrival";
             this.num_p6_arrival.Size = new System.Drawing.Size(81, 42);
             this.num_p6_arrival.TabIndex = 56;
@@ -269,7 +267,7 @@
             this.num_p4_arrival.Enabled = false;
             this.num_p4_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p4_arrival.Location = new System.Drawing.Point(123, 239);
-            this.num_p4_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p4_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p4_arrival.Name = "num_p4_arrival";
             this.num_p4_arrival.Size = new System.Drawing.Size(80, 42);
             this.num_p4_arrival.TabIndex = 54;
@@ -282,7 +280,7 @@
             this.num_p3_arrival.Enabled = false;
             this.num_p3_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p3_arrival.Location = new System.Drawing.Point(123, 188);
-            this.num_p3_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p3_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p3_arrival.Name = "num_p3_arrival";
             this.num_p3_arrival.Size = new System.Drawing.Size(80, 42);
             this.num_p3_arrival.TabIndex = 53;
@@ -295,7 +293,7 @@
             this.num_p2_arrival.Enabled = false;
             this.num_p2_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p2_arrival.Location = new System.Drawing.Point(123, 138);
-            this.num_p2_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p2_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p2_arrival.Name = "num_p2_arrival";
             this.num_p2_arrival.Size = new System.Drawing.Size(80, 42);
             this.num_p2_arrival.TabIndex = 52;
@@ -308,7 +306,7 @@
             this.num_p5_arrival.Enabled = false;
             this.num_p5_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p5_arrival.Location = new System.Drawing.Point(123, 289);
-            this.num_p5_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p5_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p5_arrival.Name = "num_p5_arrival";
             this.num_p5_arrival.Size = new System.Drawing.Size(80, 42);
             this.num_p5_arrival.TabIndex = 55;
@@ -321,7 +319,7 @@
             this.num_p1_arrival.Enabled = false;
             this.num_p1_arrival.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p1_arrival.Location = new System.Drawing.Point(121, 87);
-            this.num_p1_arrival.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p1_arrival.Margin = new System.Windows.Forms.Padding(4);
             this.num_p1_arrival.Name = "num_p1_arrival";
             this.num_p1_arrival.Size = new System.Drawing.Size(81, 42);
             this.num_p1_arrival.TabIndex = 51;
@@ -466,7 +464,7 @@
             this.num_p9_priority.Enabled = false;
             this.num_p9_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p9_priority.Location = new System.Drawing.Point(843, 239);
-            this.num_p9_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p9_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p9_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -494,7 +492,7 @@
             this.num_p8_priority.Enabled = false;
             this.num_p8_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p8_priority.Location = new System.Drawing.Point(843, 188);
-            this.num_p8_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p8_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p8_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -522,7 +520,7 @@
             this.num_p7_priority.Enabled = false;
             this.num_p7_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p7_priority.Location = new System.Drawing.Point(843, 138);
-            this.num_p7_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p7_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p7_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -550,7 +548,7 @@
             this.num_p6_priority.Enabled = false;
             this.num_p6_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p6_priority.Location = new System.Drawing.Point(843, 87);
-            this.num_p6_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p6_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p6_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -602,7 +600,7 @@
             this.num_p9_burst.Enabled = false;
             this.num_p9_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p9_burst.Location = new System.Drawing.Point(720, 239);
-            this.num_p9_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p9_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p9_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -625,7 +623,7 @@
             this.num_p10_priority.Enabled = false;
             this.num_p10_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p10_priority.Location = new System.Drawing.Point(843, 289);
-            this.num_p10_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p10_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p10_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -653,7 +651,7 @@
             this.num_p8_burst.Enabled = false;
             this.num_p8_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p8_burst.Location = new System.Drawing.Point(720, 188);
-            this.num_p8_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p8_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p8_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -676,7 +674,7 @@
             this.num_p7_burst.Enabled = false;
             this.num_p7_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p7_burst.Location = new System.Drawing.Point(720, 138);
-            this.num_p7_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p7_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p7_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -699,7 +697,7 @@
             this.num_p10_burst.Enabled = false;
             this.num_p10_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p10_burst.Location = new System.Drawing.Point(720, 289);
-            this.num_p10_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p10_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p10_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -722,7 +720,7 @@
             this.num_p6_burst.Enabled = false;
             this.num_p6_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p6_burst.Location = new System.Drawing.Point(720, 87);
-            this.num_p6_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p6_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p6_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -757,7 +755,7 @@
             this.num_p4_priority.Enabled = false;
             this.num_p4_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p4_priority.Location = new System.Drawing.Point(367, 239);
-            this.num_p4_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p4_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p4_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -785,7 +783,7 @@
             this.num_p3_priority.Enabled = false;
             this.num_p3_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p3_priority.Location = new System.Drawing.Point(367, 188);
-            this.num_p3_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p3_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p3_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -813,7 +811,7 @@
             this.num_p2_priority.Enabled = false;
             this.num_p2_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p2_priority.Location = new System.Drawing.Point(367, 138);
-            this.num_p2_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p2_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p2_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -841,7 +839,7 @@
             this.num_p1_priority.Enabled = false;
             this.num_p1_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p1_priority.Location = new System.Drawing.Point(367, 87);
-            this.num_p1_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p1_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p1_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -893,7 +891,7 @@
             this.num_p4_burst.Enabled = false;
             this.num_p4_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p4_burst.Location = new System.Drawing.Point(244, 239);
-            this.num_p4_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p4_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p4_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -916,7 +914,7 @@
             this.num_p5_priority.Enabled = false;
             this.num_p5_priority.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p5_priority.Location = new System.Drawing.Point(367, 289);
-            this.num_p5_priority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p5_priority.Margin = new System.Windows.Forms.Padding(4);
             this.num_p5_priority.Maximum = new decimal(new int[] {
             10,
             0,
@@ -944,7 +942,7 @@
             this.num_p3_burst.Enabled = false;
             this.num_p3_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p3_burst.Location = new System.Drawing.Point(244, 188);
-            this.num_p3_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p3_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p3_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -967,7 +965,7 @@
             this.num_p2_burst.Enabled = false;
             this.num_p2_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p2_burst.Location = new System.Drawing.Point(244, 138);
-            this.num_p2_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p2_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p2_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -990,7 +988,7 @@
             this.num_p5_burst.Enabled = false;
             this.num_p5_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p5_burst.Location = new System.Drawing.Point(244, 289);
-            this.num_p5_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p5_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p5_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -1013,7 +1011,7 @@
             this.num_p1_burst.Enabled = false;
             this.num_p1_burst.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num_p1_burst.Location = new System.Drawing.Point(244, 87);
-            this.num_p1_burst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_p1_burst.Margin = new System.Windows.Forms.Padding(4);
             this.num_p1_burst.Minimum = new decimal(new int[] {
             1,
             0,
@@ -1038,7 +1036,7 @@
             this.button2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button2.Location = new System.Drawing.Point(873, 622);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(156, 54);
             this.button2.TabIndex = 27;
@@ -1054,7 +1052,7 @@
             this.btn_back.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_back.ForeColor = System.Drawing.Color.LightSkyBlue;
             this.btn_back.Location = new System.Drawing.Point(16, 624);
-            this.btn_back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(128, 52);
             this.btn_back.TabIndex = 28;
@@ -1072,7 +1070,7 @@
             this.btn_incProcess.Controls.Add(this.numericUpDown_QuantumTime);
             this.btn_incProcess.Controls.Add(this.groupBox_processDetail);
             this.btn_incProcess.Location = new System.Drawing.Point(16, 64);
-            this.btn_incProcess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_incProcess.Margin = new System.Windows.Forms.Padding(4);
             this.btn_incProcess.Name = "btn_incProcess";
             this.btn_incProcess.Size = new System.Drawing.Size(1013, 553);
             this.btn_incProcess.TabIndex = 29;
@@ -1083,9 +1081,9 @@
             this.groupBox_option.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox_option.ForeColor = System.Drawing.Color.DimGray;
             this.groupBox_option.Location = new System.Drawing.Point(23, 391);
-            this.groupBox_option.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_option.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox_option.Name = "groupBox_option";
-            this.groupBox_option.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_option.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox_option.Size = new System.Drawing.Size(965, 87);
             this.groupBox_option.TabIndex = 51;
             this.groupBox_option.TabStop = false;
@@ -1100,7 +1098,7 @@
             this.lbl_default.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_default.ForeColor = System.Drawing.Color.DimGray;
             this.lbl_default.Location = new System.Drawing.Point(54, 46);
-            this.lbl_default.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbl_default.Margin = new System.Windows.Forms.Padding(4);
             this.lbl_default.Name = "lbl_default";
             this.lbl_default.Size = new System.Drawing.Size(193, 33);
             this.lbl_default.TabIndex = 33;
@@ -1141,7 +1139,7 @@
             this.checkBox_displayChart.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_displayChart.ForeColor = System.Drawing.Color.Gray;
             this.checkBox_displayChart.Location = new System.Drawing.Point(429, 503);
-            this.checkBox_displayChart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox_displayChart.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_displayChart.Name = "checkBox_displayChart";
             this.checkBox_displayChart.Size = new System.Drawing.Size(178, 27);
             this.checkBox_displayChart.TabIndex = 31;
@@ -1154,7 +1152,7 @@
             this.numericUpDown_QuantumTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericUpDown_QuantumTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown_QuantumTime.Location = new System.Drawing.Point(159, 498);
-            this.numericUpDown_QuantumTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown_QuantumTime.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown_QuantumTime.Minimum = new decimal(new int[] {
             1,
             0,
@@ -1170,49 +1168,19 @@
             0,
             0});
             // 
-            // comboBox_language
-            // 
-            this.comboBox_language.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_language.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox_language.FormattingEnabled = true;
-            this.comboBox_language.Items.AddRange(new object[] {
-            "English",
-            "ไทย"});
-            this.comboBox_language.Location = new System.Drawing.Point(868, 11);
-            this.comboBox_language.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.comboBox_language.Name = "comboBox_language";
-            this.comboBox_language.Size = new System.Drawing.Size(160, 29);
-            this.comboBox_language.TabIndex = 30;
-            this.comboBox_language.SelectedIndexChanged += new System.EventHandler(this.comboBox_language_SelectedIndexChanged);
-            // 
-            // lbl_language
-            // 
-            this.lbl_language.AutoSize = true;
-            this.lbl_language.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_language.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_language.ForeColor = System.Drawing.Color.White;
-            this.lbl_language.Location = new System.Drawing.Point(761, 11);
-            this.lbl_language.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_language.Name = "lbl_language";
-            this.lbl_language.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbl_language.Size = new System.Drawing.Size(93, 28);
-            this.lbl_language.TabIndex = 43;
-            this.lbl_language.Text = "language";
-            // 
             // Input_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::CPU_Scheduling.Properties.Resources.BG_Blur;
+            this.BackgroundImage = global::CPU_Scheduling.Properties.Resources.photo_2021_12_18_15_35_34;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1045, 690);
-            this.Controls.Add(this.lbl_language);
-            this.Controls.Add(this.comboBox_language);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_incProcess);
             this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Input_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1255,7 +1223,6 @@
             this.groupBox_option.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_QuantumTime)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1303,8 +1270,6 @@
         private System.Windows.Forms.Panel btn_incProcess;
         private System.Windows.Forms.Label lbl_quantum;
         private System.Windows.Forms.NumericUpDown numericUpDown_QuantumTime;
-        private System.Windows.Forms.ComboBox comboBox_language;
-        private System.Windows.Forms.Label lbl_language;
         private System.Windows.Forms.CheckBox checkBox_displayChart;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.NumericUpDown num_p9_arrival;
